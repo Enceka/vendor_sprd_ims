@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<permissions>
+    <library name="sprd.radio.interactor"
+        file="/system_ext/framework/radio_interactor_common.jar" />
+    <library name="sprd.framework.common"
+        file="/system_ext/framework/unisoc-framework.jar"
+        dependency="sprd.radio.interactor" />
+    <!-- Preserve the existing uses-library name in the stock EngineerMode APK. -->
+    <library name="com.unisoc.sdk.common"
+        file="/system_ext/framework/com.unisoc.sdk.common.jar"
+        dependency="sprd.radio.interactor:sprd.framework.common" />
+</permissions>

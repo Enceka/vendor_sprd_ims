@@ -1,0 +1,25 @@
+{
+  "engineer_apk_sha256": "45b959c8567e42ad18ab91be215ec4c2c463b22061e065b933daa1dff0ad35fb",
+  "platform_collision_checks": [
+    "framework.jar",
+    "ims-common.jar",
+    "telephony-common.jar"
+  ],
+  "sources": [
+    {
+      "classes": 29,
+      "path": "system/framework/radio_interactor_common.jar",
+      "sha256": "bf470defb1c3ff401f50bc5b8de8ab6cfc158f0e4d7c363941c73b04f8be6257"
+    },
+    {
+      "classes": 144,
+      "path": "system_ext/framework/unisoc-framework.jar",
+      "sha256": "70347e9440732c3bb54006838fc315cea9db49464bf0461a7f0baf75554c958e"
+    },
+    {
+      "classes": 22,
+      "path": "system_ext/framework/com.unisoc.sdk.common.jar",
+      "sha256": "88830487f61a0f4b22d48103e468277dda70f9069b89843e2b58084e644e352d"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: Apache-2.0
+soong_namespace {
+}
+
+android_app_import {
+    name: "SprdImsService",
+    owner: "sprd",
+    apk: "proprietary/system_ext/priv-app/SprdImsService/SprdImsService.apk",
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    overrides: ["ims"],
+    dex_preopt: {
+        enabled: false,
+    },
+}

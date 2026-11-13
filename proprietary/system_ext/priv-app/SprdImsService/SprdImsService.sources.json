@@ -1,0 +1,105 @@
+{
+  "added_dex_files": 3,
+  "native_library_entries": [
+    "lib/arm64-v8a/libAVRTTManager.so",
+    "lib/arm64-v8a/libavatar_lite.so",
+    "lib/arm64-v8a/libimsbrd.so",
+    "lib/arm64-v8a/libmme_jrtc.so",
+    "lib/arm64-v8a/libn3am_jni.so",
+    "lib/arm64-v8a/libvideo_call_engine_jni.so",
+    "lib/armeabi-v7a/libAVRTTManager.so",
+    "lib/armeabi-v7a/libavatar_lite.so",
+    "lib/armeabi-v7a/libimsbrd.so",
+    "lib/armeabi-v7a/libmme_jrtc.so",
+    "lib/armeabi-v7a/libn3am_jni.so",
+    "lib/armeabi-v7a/libvideo_call_engine_jni.so"
+  ],
+  "output_sha256": "d9a218a2d7be07155b2d7b58b31d27e235e71f1254b19acfa2abb4addbb8e0ad",
+  "platform_collision_checks": [
+    "framework.jar",
+    "ims-common.jar",
+    "telephony-common.jar"
+  ],
+  "sources": [
+    {
+      "classes": 800,
+      "path": "system_ext/priv-app/ims/ims.apk",
+      "sha256": "ac5e908f25ac8d0af0461793d8e8f3a1b239243ebba245c2f49cded1cceea126"
+    },
+    {
+      "classes": 118,
+      "path": "system/framework/unisoc_ims_common.jar",
+      "sha256": "dc1962003be1b3ce2ed8cf08deff89d9dd2e3ea04e24b2767d5b8632e28c9c0b"
+    },
+    {
+      "classes": 29,
+      "path": "system/framework/radio_interactor_common.jar",
+      "sha256": "bf470defb1c3ff401f50bc5b8de8ab6cfc158f0e4d7c363941c73b04f8be6257"
+    },
+    {
+      "classes": 144,
+      "path": "system_ext/framework/unisoc-framework.jar",
+      "sha256": "70347e9440732c3bb54006838fc315cea9db49464bf0461a7f0baf75554c958e"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "path": "system_ext/lib/libvideo_call_engine_jni.so",
+      "sha256": "c18ea76e4ebce6a38917bc97fb81bdd14f98e1d64bd48f03ab69f7b44716191e"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "path": "system_ext/lib/libn3am_jni.so",
+      "sha256": "81b97adbe42abfc3c8be0fad6f45a157191b35a3e7f0dc3cfb9d00b55cbfd265"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "path": "system_ext/lib/libavatar_lite.so",
+      "sha256": "a23b8d9be452e12ff8a509a3f0129e750f99509ce8c122185b0f890c6a439d9d"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "path": "system_ext/lib/libAVRTTManager.so",
+      "sha256": "f8cd8f6167ee1034937658ca2661ec70f03bb247e24a65505e28e3085753640b"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "path": "system_ext/lib/libmme_jrtc.so",
+      "sha256": "a1864049eea795e67a77636984c4ec6b75d655b815174f2ced3419df5dffbff9"
+    },
+    {
+      "abi": "armeabi-v7a",
+      "path": "system_ext/lib/libimsbrd.so",
+      "sha256": "7240dd870e6d6f5d46134e90c511047cd74a625ee7aed567b0363cc67fe88cd4"
+    },
+    {
+      "abi": "arm64-v8a",
+      "path": "system_ext/lib64/libvideo_call_engine_jni.so",
+      "sha256": "63778591b02b5e9e9e9b0fba90b805b5ef57b62d110471e9c916ab3cff449f2b"
+    },
+    {
+      "abi": "arm64-v8a",
+      "path": "system_ext/lib64/libn3am_jni.so",
+      "sha256": "6c85bbbf9196ca4e90a7dbd929387516269ab145b465f69bdd9e099f88929247"
+    },
+    {
+      "abi": "arm64-v8a",
+      "path": "system_ext/lib64/libavatar_lite.so",
+      "sha256": "1b26fb10ae73600b6f1ea59dacddf8d584dd8d6d089e0f97a6cbef3b0946ce33"
+    },
+    {
+      "abi": "arm64-v8a",
+      "path": "system_ext/lib64/libAVRTTManager.so",
+      "sha256": "895caa9ea196afa1593d3ecda9a3a668da1acbcde97c690d6e46e0659eed3484"
+    },
+    {
+      "abi": "arm64-v8a",
+      "path": "system_ext/lib64/libmme_jrtc.so",
+      "sha256": "f2d574fd1e5ed8a9e2c9a12fa8a7292c3fba33a344577018d467c8465b557681"
+    },
+    {
+      "abi": "arm64-v8a",
+      "path": "system_ext/lib64/libimsbrd.so",
+      "sha256": "81d67bcf6ad770bef1e21c3be89485f639a57effaf36321558a1f96c73ed94dd"
+    }
+  ]
+}
