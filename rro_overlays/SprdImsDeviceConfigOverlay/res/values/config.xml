@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<resources>
+    <!-- Device support and carrier availability are separate ImsManager gates. -->
+    <bool name="config_device_volte_available">true</bool>
+</resources>
