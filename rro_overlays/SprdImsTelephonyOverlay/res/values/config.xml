@@ -2,4 +2,5 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
 <resources>
     <string name="config_ims_mmtel_package" translatable="false">com.spreadtrum.ims</string>
+    <string name="platform_carrier_config_package" translatable="false">com.sprd.ims.config</string>
 </resources>

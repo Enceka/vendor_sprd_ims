@@ -1,0 +1,13 @@
+android_app {
+    name: "SprdImsConfig",
+    srcs: ["src/**/*.java"],
+    platform_apis: true,
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    min_sdk_version: "33",
+    target_sdk_version: "33",
+    optimize: {
+        enabled: false,
+    },
+}
