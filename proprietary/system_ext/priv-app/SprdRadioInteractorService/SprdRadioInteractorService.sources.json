@@ -1,0 +1,62 @@
+{
+  "aapt2": {
+    "name": "apktool:prebuilt/linux/aapt2_64",
+    "sha256": "a037accc63700aad0fdfdb47e3428cf9c3155ac9d8b35097ff52ec59b4237aaf"
+  },
+  "importer_sha256": "533d2219cb3ad7fef3e883a918acbcfdebb8fd8d75eeefcf50d751ac06534f2d",
+  "local_client_classes": 29,
+  "output_sha256": "25cbdba1ca5200e489d8c66190ace89cac2723f566ac2648354aacfc49218dff",
+  "patched_method": "public networkRegStateInd(I[I)V",
+  "platform_collision_checks": [
+    {
+      "name": "framework-minus-apex.jar",
+      "sha256": "cab97902856216f4c4d4785378d54b70cef40b33b455ae421592ce868c7f5bfa"
+    },
+    {
+      "name": "javalib.jar",
+      "sha256": "4597b6965ef3d3bd14c353212aa49a8e8576dac5082563c4ff2dd343d44416c1"
+    },
+    {
+      "name": "javalib.jar",
+      "sha256": "86f0b441d037fcbc0858cd062353b77010b904e392523a32f58d8ffabcaf5752"
+    }
+  ],
+  "process": ":radio_interactor",
+  "service_classes": 248,
+  "shared_uid": "android.uid.phone",
+  "sources": [
+    {
+      "path": "system_ext/priv-app/radio_interactor_service/radio_interactor_service.apk",
+      "sha256": "6ed58830ec2467ed93fe7d8151ebc923ce7b3a3a3c12d489b80653bc5d712147"
+    },
+    {
+      "path": "system/framework/radio_interactor_common.jar",
+      "sha256": "bf470defb1c3ff401f50bc5b8de8ab6cfc158f0e4d7c363941c73b04f8be6257"
+    },
+    {
+      "path": "system/framework/telephony-common.jar",
+      "sha256": "146ee09d842dfce96ffc326dbd892e0eb4c25b7e745de1b5aa2fa85f834f9d75"
+    }
+  ],
+  "stock_method_sha256": "e807fd7af0cd0a2503af0b8337e9e374c18fcaf0c4b8a4a5d97fcea5dc7ff1af",
+  "stock_start_update_state": "return-void",
+  "tools": {
+    "apktool": {
+      "name": "apktool.jar",
+      "sha256": "263f47b74786f9e64715535cdd5f71183a2a57334cbbe857c1ee6a451026b30d"
+    },
+    "baksmali": {
+      "name": "baksmali.jar",
+      "sha256": "9b821ea330526f97231888402664b50617b81561e8b2d6bc21c55c358bc8440f"
+    },
+    "java": {
+      "name": "java",
+      "sha256": "b7700087f3bbc48007f934625524fe8ef493f3f5fab9a814227f1b4a03802297"
+    },
+    "smali": {
+      "name": "smali.jar",
+      "sha256": "b8f790266a640a0de35391dc91fc12c7519ae4c5501f12496b138003fe4631ef"
+    }
+  },
+  "unchanged_classes_verified": 247
+}

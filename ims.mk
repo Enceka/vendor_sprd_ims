@@ -5,6 +5,7 @@ PRODUCT_SOONG_NAMESPACES += $(SPRD_IMS_PATH)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(SPRD_IMS_PATH)/sepolicy/private
 PRODUCT_PACKAGES += \
     ims_bridged \
+    SprdRadioInteractorService \
     SprdImsService \
     SprdImsConfig \
     SprdImsDeviceConfigOverlay \

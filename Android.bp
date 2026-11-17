@@ -57,6 +57,19 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+    name: "SprdRadioInteractorService",
+    owner: "sprd",
+    apk: "proprietary/system_ext/priv-app/SprdRadioInteractorService/SprdRadioInteractorService.apk",
+    certificate: "platform",
+    privileged: true,
+    system_ext_specific: true,
+    overrides: ["radio_interactor_service"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
+
+android_app_import {
     name: "SprdImsService",
     owner: "sprd",
     apk: "proprietary/system_ext/priv-app/SprdImsService/SprdImsService.apk",
