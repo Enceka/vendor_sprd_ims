@@ -2,7 +2,9 @@
 SPRD_IMS_PATH := vendor/sprd/ims
 
 PRODUCT_SOONG_NAMESPACES += $(SPRD_IMS_PATH)
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(SPRD_IMS_PATH)/sepolicy/private
 PRODUCT_PACKAGES += \
+    ims_bridged \
     SprdImsService \
     SprdImsConfig \
     SprdImsDeviceConfigOverlay \
@@ -16,5 +18,4 @@ PRODUCT_COPY_FILES += \
     $(SPRD_IMS_PATH)/proprietary/system_ext/framework/unisoc-framework.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/unisoc-framework.jar \
     $(SPRD_IMS_PATH)/proprietary/system_ext/framework/com.unisoc.sdk.common.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.unisoc.sdk.common.jar
 
-# Native IMS services, carrier selection and modem interfaces remain vendor-provided.
 # Video, Wi-Fi calling and APN settings remain carrier/device-provided.

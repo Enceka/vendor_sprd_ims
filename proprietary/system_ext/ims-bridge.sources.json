@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "abi": "arm64-v8a",
+      "path": "system_ext/bin/ims_bridged",
+      "sha256": "9aaae609a9365224513c09af281a70816e89108e53b2e04f35de7924cfd4a958",
+      "size": 20440
+    },
+    {
+      "abi": "arm64-v8a",
+      "path": "system_ext/lib64/libimsbrd.so",
+      "sha256": "81d67bcf6ad770bef1e21c3be89485f639a57effaf36321558a1f96c73ed94dd",
+      "size": 19336
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+service ims_bridged /system_ext/bin/ims_bridged
+    class main
+    user root

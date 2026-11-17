@@ -1,0 +1,17 @@
+type sprd_ims_bridged, domain, coredomain;
+type sprd_ims_bridged_exec, exec_type, system_file_type, file_type;
+init_daemon_domain(sprd_ims_bridged)
+
+allow radio sprd_ims_bridged:unix_stream_socket connectto;
+allow sprd_ims_bridged radio:fd use;
+allow sprd_ims_bridged radio:{ tcp_socket udp_socket } { read write getopt setopt };
+
+allow sprd_ims_bridged self:global_capability_class_set { net_admin net_raw };
+allow sprd_ims_bridged self:netlink_generic_socket { create bind read write getattr setopt getopt };
+allow sprd_ims_bridged self:netlink_route_socket { create bind read write getattr setopt getopt nlmsg_read nlmsg_write };
+allow sprd_ims_bridged self:udp_socket { create ioctl getopt setopt };
+allowxperm sprd_ims_bridged self:udp_socket ioctl { 0x8933 0x8946 };
+allow sprd_ims_bridged self:rawip_socket { create getopt setopt };
+
+allow sprd_ims_bridged sprd_sysfs_imsbr_mark:file { open write };
+allow sprd_ims_bridged sprd_proc_tcp_nuke_addr:file { open write };

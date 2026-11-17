@@ -1,0 +1,2 @@
+genfscon sysfs /module/ims_bridge/parameters/vowifi_in_mark u:object_r:sprd_sysfs_imsbr_mark:s0
+genfscon proc /sys/net/ipv4/tcp_enable_nuke_addr u:object_r:sprd_proc_tcp_nuke_addr:s0
