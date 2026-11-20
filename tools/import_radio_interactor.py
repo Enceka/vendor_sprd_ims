@@ -251,7 +251,9 @@ def main():
                     if name.upper().startswith("META-INF/") or name.endswith("/"):
                         continue
                     entry = zipfile.ZipInfo(name, (2009, 1, 1, 0, 0, 0))
-                    entry.compress_type = zipfile.ZIP_DEFLATED
+                    # Soong's platform signing aligns stored entries in the installed APK.
+                    entry.compress_type = (zipfile.ZIP_STORED if name == "resources.arsc"
+                                           else zipfile.ZIP_DEFLATED)
                     destination.writestr(entry, source.read(name))
             temporary.chmod(0o644)
             temporary.replace(args.output)
